@@ -1,0 +1,67 @@
+.heading{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.clearBtn{
+width: 98%;
+height: 20px;
+margin-top: 6px;
+margin-left: 5px;
+border: 1px solid black;
+border-radius: 5px;
+}
+
+.main{
+    margin: 0 auto;
+    border: 2px solid black;
+    width:30%;
+    height:20rem;
+    background-color:rgb(68, 0, 255);
+    border-radius: 10px;
+    box-shadow: 4px gray;
+
+
+    
+    
+}
+.display{
+    width: 98%;
+    margin-top: 10px;
+    margin-left: 0px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(9, 87, 255);
+    font-size: 2rem;
+    text-align: right;
+    
+}
+
+.yaqoob{
+   text-align: center; 
+   color: darkblue;
+}
+.mainRow{
+margin-left:1.5rem;
+}
+.btn{
+
+    width: 22%;
+    height:3rem ;
+    /* margin: auto 0; */
+    text-align: center;
+     margin-top:  8px;
+    /* margin-left:  2px;  */
+    /* margin-bottom: 6px; */
+    border:1px solid black;
+    border-radius: 3px;
+}
+
+.firstRow , .secondRow , .thirdRow , .fourthRow{
+
+    /* margin-left:10px; */
+    /* margin-right: 5px; */
+    margin: auto 0;
+
+
+}
