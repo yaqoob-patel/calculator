@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- <a href="#" onclick='alert("HELLO WORLD")'>Click Me</a> -->
+    <!-- <br><br><br> -->
+    <!-- <a href="#" onclick="yaqoob('hamza')">Click Me</a> -->
+
+    <!-- <img src="images/bikeImage1.jpg" width="300px" alt="image" onclick="width=100" onmouseover="width=400">
+        <br><br><br>
+        
+        <button onclick="yaqoob('Yaqoob')">CLICK ME</button>
+        
+        <br><br><br><!-->
+
+    <!-- <input type="text" value="" id="fieldInput" onfocus="this.style.backgroundColor='lightgrey'"
+        onblur="this.style.backgroundColor='red'">
+    <button onclick="para()">click me</button>
+
+    <br><br><br>
+
+    <p id="xyz"></p>
+ -->
+
+    <div class="heading">
+      <h2>CALCULATOR</h2>
+    </div>
+
+    <div class="main">
+      <div>
+        <input
+          id="result"
+          type="text"
+          class="display"
+          placeholder="0"
+          style="height: 3rem;"
+          onfocus="this.style.background = ('lightgrey')"
+        />
+      </div>
+      <div>
+        <button class="clearBtn" onclick="allClear()">C</button>
+      </div>
+      <div class="mainRow" id="mainRow">
+        <div class="firstRow">
+          <button class="btn" onclick="getNumber('1')">1</button>
+
+          <button class="btn" onclick="getNumber('2')">2</button>
+
+          <button class="btn" onclick="getNumber('3')">3</button>
+
+          <button class="btn" onclick="getNumber('+')">+</button>
+        </div>
+        <div class="secondRow">
+          <button class="btn" onclick="getNumber('4')">4</button>
+
+          <button class="btn" onclick="getNumber('5')">5</button>
+
+          <button class="btn" onclick="getNumber('6')">6</button>
+
+          <button class="btn" onclick="getNumber('-')">-</button>
+        </div>
+        <div class="thirdRow">
+          <button class="btn" onclick="getNumber('7')">7</button>
+
+          <button class="btn" onclick="getNumber('8')">8</button>
+
+          <button class="btn" onclick="getNumber('9')">9</button>
+
+          <button class="btn" onclick="getNumber('*')">*</button>
+        </div>
+        <div class="fourthRow">
+          <button class="btn" onclick="getNumber('0')">0</button>
+
+          <button id="lastChar" class="btn" onclick="clearLast()">CE</button>
+
+          <button class="btn" onclick="getResult()">=</button>
+
+          <button class="btn" onclick="getNumber('/')">/</button>
+        </div>
+      </div>
+      <br />
+
+      <div class="yaqoob">
+        developed by YAQOOB PATEL
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
